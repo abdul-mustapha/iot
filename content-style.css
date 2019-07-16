@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+      
+}
+
+body{
+    background: linear-gradient(270deg, #292356 0%, #1B173A 100%);
+}
+
+html, body {
+    height:100%;
+    width:100%;
+}
+
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    background: rgba(64, 55, 120, 0.16);
+    position: relative;
+    width: 100%;
+    height: 6rem;
+    padding:0px 30px;
+}
+
+li, a {
+    font-weight: 500;
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: #edf0f1;
+}
+
+.icon{
+    cursor: pointer;
+    width:25px;
+
+}
+
+.logo{
+    align-self: center;
+    padding-left:10px;
+    margin-right: auto;
+}
+
+.nav_links{
+    list-style: none;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+   
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color:#6C6AFB;
+}
+
+section{
+    display:grid;
+    grid-template-columns: 50% 50%; 
+
+}
+
+.heading-primary{
+    color: #edf0f1;
+    font-weight: 500;
+    font-size:2.5rem;
+    padding-bottom:20px;
+
+}
+
+.grid-1 {
+    padding:50px;
+}
+
+.kevin-ashton{
+    float:right;
+    padding: 20px 0px 20px 20px;
+    overflow: auto;
+}
+
+.kevin-ashton img{
+    width:100px;
+    
+}
+.grid-2{
+    background: rgba(64, 55, 120, 0.16);;
+    padding:50px;
+
+}
+
+.grid-2-img-container{
+    height:250px;
+}
+
+.grid-2-header-img{
+    width:100%;
+    object-fit: cover;
+    max-height:100%;
+    border: 10px solid #111238;
+    object-position: 50% 50%;
+}
+
+.what-is-it-header{
+    object-position: 50% 60%;
+}
+
+.examples-header{
+    object-position: 50% 10%;
+}
+
+.grid-p-text{
+    padding-top:20px;
+    line-height:20px;
+    font-size:1.5rem;
+    color:#edf0f1;
+    letter-spacing: 1px;
+    font-weight:500;
+}
+
+h2{
+    color:#edf0f1;
+    padding-top:20px;
+}
+
+
+footer{
+    padding:50px 0px 50px 50px;
+
+}
+
+footer h4{
+    color: #edf0f1;
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+footer h5{
+    color: #CACACA;
+    font-weight: 300;
+    font-size: 1.2rem;
+
+}
+
+footer h6{
+    color: #9c9c9c;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
